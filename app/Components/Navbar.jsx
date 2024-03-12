@@ -38,18 +38,18 @@ const Navbar = () => {
    
     <div 
     style={{backgroundColor:`${color}`}}
-    className={`  fixed top-[0] left-[0] right-0 flex bg-[ transparent] justify-between items-center h-2 max-w-full m-auto px-32 py-12  z-20  ${!nav ? 'w-full bg-[var(--white)] ease duration-700' : ''}`}>  
+    className={`  fixed top-[0] left-[0] right-0 flex bg-[ transparent] justify-between items-center h-2 max-w-full m-auto px-28 py-[34px]  z-20  ${!nav ? 'w-full bg-[var(--white)] ease duration-700' : ''}`}>  
 
 
                          <h1>
 
 
-                           <div className=" mr-2 z-10">
+                           <div className="z-10">
                             <Image
                                src="/Logo.png"
                                alt="Description of the image"
-                               width={71}
-                               height={95}
+                               width={51}
+                               height={5}
                              />
                            </div>
                          </h1>
@@ -62,23 +62,23 @@ const Navbar = () => {
       className=" hidden p-1 md:p-4  md:flex text-[var(--dark-blue)]  ">
 
 
-        <li className="p-6 hover:text-[var(--dark-blue)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+        <li className="p-6 hover:text-[var(--dark-blue)] text-[14px]	cursor-pointer drop-shadow-2xl ">
           <Link legacyBehavior href="#home" ><a>Home</a></Link>
         </li>
 
 
-        <li className="p-6 hover:text-[var(--dark-blue)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+        <li className="p-6 hover:text-[var(--dark-blue)] text-[14px]	cursor-pointer drop-shadow-2xl ">
         <Link legacyBehavior href="#about" ><a>About Us</a></Link>
         </li>
 
 
         
-        <li className="p-6 hover:text-[var(--dark-blue)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+        <li className="p-6 hover:text-[var(--dark-blue)] text-[14px]	cursor-pointer drop-shadow-2xl ">
           <Link legacyBehavior href="#services" ><a>Search</a></Link>
         </li>
 
 
-        <li className="p-6 hover:text-[var(--dark-blue)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+        <li className="p-6 hover:text-[var(--dark-blue)] text-[14px]	cursor-pointer drop-shadow-2xl ">
         <Link legacyBehavior href="#contact" ><a>Contact</a></Link>
         </li>
 
@@ -107,28 +107,28 @@ const Navbar = () => {
       </div>
 
 
-      <div className={!nav ? "fixed  left-0 top-24 w-[100%] text-center	 h-[60vh] bg-[var(--white)] ease duration-500 py-24 lg:hidden z-30 " : "fixed left-[-100%] "}>
+      <div className={!nav ? "fixed  left-0 top-16 w-[100%] text-center	 h-[60vh] bg-[var(--white)] ease duration-500 py-24 lg:hidden z-30 " : "fixed left-[-100%] "}>
 
          
         <ul className="p-4 uppercase  text-[var(--dark-blue)]  ">
 
 
-          <li className="p-4  hover:text-[var(--red)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+          <li className="p-4  hover:text-[var(--red)] text-[14px]	cursor-pointer drop-shadow-2xl ">
           <Link href="#home" >Home</Link>
           </li>
 
 
-          <li className="p-4  hover:text-[var(--red)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+          <li className="p-4  hover:text-[var(--red)] text-[14px]	cursor-pointer drop-shadow-2xl ">
           <Link href="#about" >About Us</Link>
           </li>
 
 
-          <li className="p-4  hover:text-[var(--red)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+          <li className="p-4  hover:text-[var(--red)] text-[14px]	cursor-pointer drop-shadow-2xl ">
           <Link href="#search" >Search</Link>
           </li>
 
 
-          <li className="p-4  hover:text-[var(--red)] text-[16px]	cursor-pointer drop-shadow-2xl ">
+          <li className="p-4  hover:text-[var(--red)] text-[14px]	cursor-pointer drop-shadow-2xl ">
           <Link href="#contact" >Contact</Link>
           </li>
 

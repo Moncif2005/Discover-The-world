@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="bg-[var(--white)] gap-5 justify-between px-[89px] md:w-[1440px] h-[750px] flex flex-col md:flex-row" id='contact'>
+    <div className="bg-[var(--white)]  justify-between px-[67px] md:w-[990px] h-[750px] flex flex-col md:flex-row" id='contact'>
         <div className="gap-3">
             <h2 className="p-[42px] m-[6px] text-[42px] text-[var(--blue-white)] ">Contact Us</h2>
             <p className="p-[18px] m-[30px] text-[18px] w-[378px] h-[239px] ">
@@ -31,9 +31,9 @@ function Contact() {
 
 
 
-        <div className="hidden md:flex w-[680px] h-[554px] px-[42px] my-[50px] mx-[-30rem] bg-[var(--text-first)] rounded-lg gap-[30rem] ">
+        <div className="hidden md:flex px-[42px] my-[50px] mx-[-30rem] bg-[var(--text-first)] rounded-lg gap-[10rem] ">
 
-        <div className="w-2/5 h-96 bg-blue-white p-8">
+        <div className=" bg-blue-white p-8">
         <form>
           <div className="mb-4">
             <label htmlFor="name" className="text-lg text-blue-white block mb-2">

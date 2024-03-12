@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 function Footer() {
   return (
     <div className="bg-[var(--text-first)] h-[395px] items-start " >
-    <div className="py-10 m-28 ">
+    <div className="py-10 m-24">
         <h2 className=" m-2 p-1 ">Search from here</h2>
         <div className="flex w-[600px] items-center m-2 p-2  rounded-md bg-white">
            <input
